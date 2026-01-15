@@ -1,0 +1,90 @@
+/* incializar estilos globales */
+body {
+    margin: 2;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.contenedor,
+.contenedor-padre,
+.contenedor-scroll,
+.contenedor-zindex {
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 10px;
+}
+.caja,
+.hijo-absolute,
+.boton-fixed,
+.elemento-sticky,
+.capa {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.caja-relative {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.contenedor-padre {
+    position: relative;
+    height: 100px;
+}
+
+.hijo-absolute {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.boton-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.contenedor-scroll {
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.elemento-sticky {
+    position: sticky;
+    top: 0;
+}
+
+.contenedor-zindex {
+    position: relative;
+    height: 150px;
+}
+
+.capa {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.capa-1 {
+    background-color: blue;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+
+.capa-2 {
+    background-color: red;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+}
+
+.capa-3 {
+    background-color: green;
+    z-index: 3;
+    top: 60px;
+    left: 60px;
+}
